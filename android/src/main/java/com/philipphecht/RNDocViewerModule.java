@@ -10,17 +10,6 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.ReadableArray;
 
-/* bridge react native
-int size();
-boolean isNull(int index);
-boolean getBoolean(int index);
-double getDouble(int index);
-int getInt(int index);
-String getString(int index);
-ReadableArray getArray(int index);
-ReadableMap getMap(int index);
-ReadableType getType(int index);
-*/
 //Third Libraries
 import java.io.*;
 import java.io.File;
@@ -30,7 +19,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
